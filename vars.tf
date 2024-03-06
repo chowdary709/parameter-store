@@ -8,6 +8,6 @@ variable "SecureString" {
 
 variable "parameters" {
   default = [
-    {name = "backend.app_version", value = "1.1.1", type = var.String}
+    {name = "backend.app_version", value = "1.1.1", type = "String"}
   ]
 }
