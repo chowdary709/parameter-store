@@ -1,10 +1,10 @@
-variable "String" {
-  default = String
-}
-
-variable "SecureString" {
-  default = SecureString
-}
+#variable "String" {
+#  default = String
+#}
+#
+#variable "SecureString" {
+#  default = SecureString
+#}
 
 variable "parameters" {
   default = [
