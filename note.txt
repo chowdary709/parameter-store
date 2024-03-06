@@ -1,0 +1,13 @@
+"{{ lookup('aws_ssm', 'parameter_name', region='use-ast-1') }}"
+
+"How can I use the lookup plugin in Ansible to retrieve an AWS SSM parameter value?"
+
+or
+
+"Can you explain how to use the aws_ssm lookup plugin in Ansible to fetch the value of an SSM parameter?"
+_________________________________________________________________
+
+
+ the anible can talk to Amazon by  using python code
+
+ it requires some dependencies by the way so the dependencies are botocore and boto3 and
