@@ -11,7 +11,9 @@ resource "aws_ssm_parameter" "params" {
 
 variable "parameters" {
   default = [
-    {name = "expense.frontend.backend_url", value = "http://backend.roboshop.internal:8080/", type = "String"}
+    # expense-ansible-parameters
+    {name = "expense.frontend.backend_url", value = "http://backend.roboshop.internal:8080/", type = "String"}, # frontend
+    {name = "expense.backend.DB_HOST", value = "mysql.roboshop.internal", type = "String"}                      # backend
   ]
 }
 
