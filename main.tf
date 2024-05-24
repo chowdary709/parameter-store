@@ -24,14 +24,14 @@ variable "parameters" {
     {name = "dev.rds.master_password", value = "Expense12345", type = "SecureString"},
     #rds end point
     {name = "dev.rds.endpoint", value = "dev-mysql.cluster-cinvurdqvuv4.us-east-1.rds.amazonaws.com", type = "String"},
-
+    {name = "dev.expense.frontend.backend_url", value = "http://backend-dev.roboshop.internal/", type = "String"},
     ###prod
     # rds terraform prod environment
     {name = "prod.rds.master_username", value = "admin1", type = "String"},
     {name = "prod.rds.master_password", value = "Expense12345", type = "SecureString"},
     #rds end point
     {name = "prod.rds.endpoint", value = "prod-mysql.cluster-cinvurdqvuv4.us-east-1.rds.amazonaws.com", type = "String"}
-
+     {name = "prod.expense.frontend.backend_url", value = "http://backend-dev.roboshop.internal/", type = "String"}
   ]
 }
 
