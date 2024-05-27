@@ -52,6 +52,8 @@ variable "parameters" {
     {name = "prod.rds.endpoint", value = "prod-mysql.cluster-cbvsbeoyxek4.us-east-1.rds.amazonaws.com", type = "String"},
 
     ## Dev env
+    {name = "dev.rds.master_username", value = "admin1", type = "String"},
+    {name = "dev.rds.master_password", value = "Expense12345", type = "SecureString"},
     {name = "dev.expense.frontend.backend_url", value = "http://backend-dev.roboshop.internal/", type = "String"}
   ]
 }
