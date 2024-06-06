@@ -1,10 +1,6 @@
-data "aws_vpc" "id" {
-  id = "vpc-0d36408476c035854"
-}
 resource "aws_security_group" "allow_all" {
   name        = "allow_all"
   description = "Security Group allowing all inbound TCP traffic"
-  vpc_id      = data.aws_vpc.id.id
 
   ingress {
     description = "Allow all inbound TCP traffic"
