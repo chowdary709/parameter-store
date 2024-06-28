@@ -33,7 +33,10 @@ variable "parameters" {
     {name = "prod.rds.master_password", value = "Expense12345", type = "SecureString"},
     #rds end point
     {name = "prod.rds.endpoint", value = "prod-mysql.cluster-cinvurdqvuv4.us-east-1.rds.amazonaws.com", type = "String"},
-    {name = "prod.expense.frontend.backend_url", value = "http://backend-prod.chowdary.cloud/", type = "String"}
+    {name = "prod.expense.frontend.backend_url", value = "http://backend-prod.chowdary.cloud/", type = "String"},
+
+    ### jenkins password
+    {name = "jenkins_password", value = "admin123", type = "SecureString"}
   ]
 }
 
