@@ -36,7 +36,8 @@ variable "parameters" {
     {name = "prod.expense.frontend.backend_url", value = "http://backend-prod.chowdary.cloud/", type = "String"},
 
     ### jenkins password
-    {name = "jenkins_password", value = "admin123", type = "SecureString"}
+    {name = "jenkins_password", value = "admin123", type = "SecureString"},
+    {name = "jenkins_password", value = "@123Chaitu", type = "SecureString"}
   ]
 }
 
