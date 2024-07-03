@@ -37,7 +37,7 @@ variable "parameters" {
 
     ### jenkins password
     {name = "jenkins_password", value = "admin123", type = "SecureString"},
-    {name = "jenkins_chaitu", value = "@123Chaitu", type = "SecureString"}
+    {name = "jenkins_admin", value = "@123Chaitu", type = "SecureString"}
   ]
 }
 
